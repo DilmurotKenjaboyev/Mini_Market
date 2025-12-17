@@ -27,8 +27,19 @@ npm run dev
 
 Open http://localhost:5173 (Vite default)
 
-## Demo
-- Add demo link if deployed
+## Features
+- ✅ Vanilla JS product catalog with live API fetching
+- ✅ React cart with useState & useEffect  
+- ✅ localStorage persistence
+- ✅ Responsive mobile-first design
+- ✅ Add/remove items functionality
+- ✅ Cart summary (total items & sum)
+
+## Stack
+- React 18 + Vite
+- Vanilla JS for product list
+- CSS Grid/Flex (no UI frameworks)
+- FakeStore API integration
 
 ## Repository link
 - https://github.com/DilmurotKenjaboyev/Mini_Market
