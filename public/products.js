@@ -1,4 +1,3 @@
-// Vanilla JS: fetch products and render them into #products
 const API = 'https://fakestoreapi.com/products';
 
 function createCard(product) {
@@ -14,7 +13,6 @@ function createCard(product) {
 
   const btn = card.querySelector('.add-btn');
   btn.addEventListener('click', () => {
-    // dispatch a custom event so React cart can pick it up
     const event = new CustomEvent('add-to-cart', { detail: product });
     window.dispatchEvent(event);
     btn.textContent = 'Added';
